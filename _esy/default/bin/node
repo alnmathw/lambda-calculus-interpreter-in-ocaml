@@ -1,0 +1,4 @@
+#!/bin/sh
+export ESY__NODE_BIN_PATH="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/bin"
+exec "/home/alnmathw/.nvm/versions/node/v12.16.3/bin/node" -r "/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/pnp.js" "$@"
+              

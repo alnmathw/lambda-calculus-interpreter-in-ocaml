@@ -1,0 +1,33 @@
+{
+  "checksum": "32bd2c5ae7fad99b1876c18cadecd371",
+  "root": "Lambda-Calculus-Interpreter-in-OCaml@link-dev:./package.json",
+  "node": {
+    "ocaml@4.14.0@d41d8cd9": {
+      "id": "ocaml@4.14.0@d41d8cd9",
+      "name": "ocaml",
+      "version": "4.14.0",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/ocaml/-/ocaml-4.14.0.tgz#sha1:619afaeabcc8732cc1f4014a7251403927f44021"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "Lambda-Calculus-Interpreter-in-OCaml@link-dev:./package.json": {
+      "id": "Lambda-Calculus-Interpreter-in-OCaml@link-dev:./package.json",
+      "name": "Lambda-Calculus-Interpreter-in-OCaml",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [ "ocaml@4.14.0@d41d8cd9" ],
+      "devDependencies": []
+    }
+  }
+}

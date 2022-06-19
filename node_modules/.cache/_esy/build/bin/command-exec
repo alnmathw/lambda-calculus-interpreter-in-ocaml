@@ -1,0 +1,95 @@
+#!/bin/bash
+# Command environment
+
+#
+# Built-in
+#
+export ESY__ROOT_PACKAGE_CONFIG_PATH="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/package.json"
+export GIT_ASKPASS='/home/alnmathw/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/extensions/git/dist/askpass.sh'
+export USER='alnmathw'
+export LESSOPEN='| /usr/bin/lesspipe %s'
+export XDG_DATA_DIRS='/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+export PATH='/home/alnmathw/.nvm/versions/node/v12.16.3/lib/node_modules/esy/3/i/esy-71a059e4/bin:/home/alnmathw/.opam/default/bin:/home/alnmathw/.cache/cloud-code/installer/google-cloud-sdk/bin:/home/alnmathw/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/alnmathw/.local/bin:/home/alnmathw/.nvm/versions/node/v12.16.3/bin:/home/alnmathw/.sdkman/candidates/kotlin/current/bin:/home/alnmathw/.opam/default/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Calibre2/:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/user/AppData/Roaming/npm:/mnt/c/Program Files/PostgreSQL/14/bin:/mnt/c/Program Files/PostgreSQL/14/lib:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2022.1.1/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1.1/bin:/mnt/c/Users/user/.dotnet/tools:/snap/bin:/home/alnmathw/.dotnet/tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+export OCAMLPATH='/home/alnmathw/.nvm/versions/node/v12.16.3/lib/node_modules/esy/3/i/esy-71a059e4/lib:'
+export HOSTTYPE='x86_64'
+export CAML_LD_LIBRARY_PATH='/home/alnmathw/.nvm/versions/node/v12.16.3/lib/node_modules/esy/3/i/esy-71a059e4/stublibs:/home/alnmathw/.nvm/versions/node/v12.16.3/lib/node_modules/esy/3/i/esy-71a059e4/lib/stublibs:/home/alnmathw/.opam/default/lib/stublibs:/usr/local/lib/ocaml/4.08.1/stublibs:/usr/lib/ocaml/stublibs'
+export NAME='DESKTOP-71EFBUC'
+export PKG_CONFIG_PATH='/home/alnmathw/.opam/default/lib/pkgconfig:/home/alnmathw/.opam/default/lib/pkgconfig'
+export LOGNAME='alnmathw'
+export SHLVL='1'
+export MAN_PATH='/home/alnmathw/.nvm/versions/node/v12.16.3/lib/node_modules/esy/3/i/esy-71a059e4/man:'
+export SDKMAN_VERSION='5.14.0'
+export NVM_CD_FLAGS=''
+export VSCODE_GIT_ASKPASS_MAIN='/home/alnmathw/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/extensions/git/dist/askpass-main.js'
+export NVM_BIN='/home/alnmathw/.nvm/versions/node/v12.16.3/bin'
+export _='/home/alnmathw/.nvm/versions/node/v12.16.3/lib/node_modules/esy/3/i/esy-71a059e4/bin/esy'
+export OPAM_SWITCH_PREFIX='/home/alnmathw/.opam/default'
+export LANG='C.UTF-8'
+export SDKMAN_CANDIDATES_DIR='/home/alnmathw/.sdkman/candidates'
+export HOME='/home/alnmathw'
+export KOTLIN_HOME='/home/alnmathw/.sdkman/candidates/kotlin/current'
+export OCAML_TOPLEVEL_PATH='/home/alnmathw/.opam/default/lib/toplevel'
+export LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+export COLORTERM='truecolor'
+export VSCODE_GIT_ASKPASS_NODE='/home/alnmathw/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node'
+export GDK_DPI_SCALE='2'
+export GDK_SCALE='0.5'
+export TERM_PROGRAM_VERSION='1.68.1'
+export LIBGL_ALWAYS_INDIRECT='1'
+export SHELL='/bin/bash'
+export LESSCLOSE='/usr/bin/lesspipe %s %s'
+export SDKMAN_DIR='/home/alnmathw/.sdkman'
+export SDKMAN_CANDIDATES_API='https://api.sdkman.io/2'
+export WSL_INTEROP='/run/WSL/21010_interop'
+export MANPATH='/home/alnmathw/.opam/default/man::/home/alnmathw/.nvm/versions/node/v12.16.3/share/man:/home/alnmathw/.opam/default/man'
+export PWD='/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml'
+export NVM_DIR='/home/alnmathw/.nvm'
+export VSCODE_GIT_IPC_HANDLE='/tmp/vscode-git-b10ccd231b.sock'
+export TERM_PROGRAM='vscode'
+export DISPLAY='172.31.144.1:0'
+export TERM='xterm-256color'
+export VSCODE_IPC_HOOK_CLI='/tmp/vscode-ipc-fa6307c0-a752-4b48-a8ca-0da1da0ffa25.sock'
+export WSL_DISTRO_NAME='Ubuntu'
+export WSLENV='VSCODE_WSL_EXT_LOCATION/up'
+export SDKMAN_PLATFORM='linuxx64'
+export VSCODE_GIT_ASKPASS_EXTRA_ARGS=''
+export SHELL='/bin/bash'
+export PATH="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/bin:$PATH"
+export cur__etc="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/lambda_calculus_interpreter_in_ocaml-70a93e7e/etc"
+export cur__share="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/lambda_calculus_interpreter_in_ocaml-70a93e7e/share"
+export cur__toplevel="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/lambda_calculus_interpreter_in_ocaml-70a93e7e/toplevel"
+export cur__stublibs="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/lambda_calculus_interpreter_in_ocaml-70a93e7e/stublibs"
+export cur__doc="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/lambda_calculus_interpreter_in_ocaml-70a93e7e/doc"
+export cur__man="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/lambda_calculus_interpreter_in_ocaml-70a93e7e/man"
+export cur__lib="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/lambda_calculus_interpreter_in_ocaml-70a93e7e/lib"
+export cur__sbin="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/lambda_calculus_interpreter_in_ocaml-70a93e7e/sbin"
+export cur__bin="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/lambda_calculus_interpreter_in_ocaml-70a93e7e/bin"
+export cur__install="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/lambda_calculus_interpreter_in_ocaml-70a93e7e"
+export cur__target_dir="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/b/lambda_calculus_interpreter_in_ocaml-70a93e7e"
+export cur__original_root="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml"
+export cur__root="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml"
+export cur__dev="true"
+export cur__version="link-dev:./package.json"
+export cur__name="Lambda-Calculus-Interpreter-in-OCaml"
+
+#
+# ocaml@4.14.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/ocaml-4.14.0-c4de7b44/lib/ocaml/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/ocaml-4.14.0-c4de7b44/lib/ocaml:$CAML_LD_LIBRARY_PATH"
+export OCAMLLIB="/home/alnmathw/.esy/3________________________________________________________________/i/ocaml-4.14.0-c4de7b44/lib/ocaml"
+export OCAML_TOPLEVEL_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/ocaml-4.14.0-c4de7b44/lib/ocaml"
+export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/ocaml-4.14.0-c4de7b44/lib:$OCAMLPATH"
+export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/ocaml-4.14.0-c4de7b44/man:$MAN_PATH"
+export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/ocaml-4.14.0-c4de7b44/bin:$PATH"
+
+#
+# Built-in
+#
+export OCAMLFIND_LDCONF="ignore"
+export OCAMLFIND_DESTDIR="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/lambda_calculus_interpreter_in_ocaml-70a93e7e/lib"
+export DUNE_BUILD_DIR="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/b/lambda_calculus_interpreter_in_ocaml-70a93e7e"
+export DUNE_STORE_ORIG_SOURCE_DIR="true"
+export SHELL="env -i /bin/bash --norc --noprofile"
+export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export SHELL="/bin/bash"
+exec "$@"
