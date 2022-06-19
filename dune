@@ -1,2 +1,6 @@
 (executable
- (name interpreter))
+ (name interpreter)
+ (flags
+  (:standard -rectypes))
+ (preprocess
+  (pps ppx_deriving.show)))

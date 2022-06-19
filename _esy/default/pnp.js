@@ -90,24 +90,812 @@ function blacklistCheck(locator) {
 }
 
 let packageInformationStores = new Map([
-["ocaml",
-new Map([["4.14.0",
+["@esy-ocaml/substs",
+new Map([["0.0.1",
          {
-           packageLocation: "/home/alnmathw/.esy/source/i/ocaml__4.14.0__5c587ac3/",
-           packageDependencies: new Map([["ocaml", "4.14.0"]])}]])],
+           packageLocation: "/home/alnmathw/.esy/source/i/esy_ocaml__s__substs__0.0.1__19de1ee1/",
+           packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"]])}]])],
+  ["@opam/astring",
+  new Map([["opam:0.8.5",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__astring__opam__c__0.8.5__471b9e4a/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/astring", "opam:0.8.5"],
+                                             ["@opam/ocamlbuild",
+                                             "opam:0.14.1"],
+                                             ["@opam/ocamlfind",
+                                             "opam:1.9.5"],
+                                             ["@opam/topkg", "opam:1.0.5"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/base",
+  new Map([["opam:v0.15.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__base__opam__c__v0.15.0__97538412/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base", "opam:v0.15.0"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/dune-configurator",
+                                             "opam:3.3.0"],
+                                             ["@opam/sexplib0",
+                                             "opam:v0.15.1"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/base-bigarray",
+  new Map([["opam:base",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__base_bigarray__opam__c__base__37a71828/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base-bigarray",
+                                             "opam:base"]])}]])],
+  ["@opam/base-bytes",
+  new Map([["opam:base",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__base_bytes__opam__c__base__48b6019a/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base-bytes",
+                                             "opam:base"],
+                                             ["@opam/ocamlfind",
+                                             "opam:1.9.5"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/base-threads",
+  new Map([["opam:base",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__base_threads__opam__c__base__f282958b/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base-threads",
+                                             "opam:base"]])}]])],
+  ["@opam/base-unix",
+  new Map([["opam:base",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__base_unix__opam__c__base__93427a57/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base-unix", "opam:base"]])}]])],
+  ["@opam/cmdliner",
+  new Map([["opam:1.1.1",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__cmdliner__opam__c__1.1.1__64439091/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/cmdliner", "opam:1.1.1"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/cppo",
+  new Map([["opam:1.6.9",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__cppo__opam__c__1.6.9__327e8fcf/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base-unix", "opam:base"],
+                                             ["@opam/cppo", "opam:1.6.9"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/csexp",
+  new Map([["opam:1.5.1",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__csexp__opam__c__1.5.1__a5d42d7e/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/csexp", "opam:1.5.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/dune",
+  new Map([["opam:3.3.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__dune__opam__c__3.3.0__243904f5/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base-threads",
+                                             "opam:base"],
+                                             ["@opam/base-unix", "opam:base"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/dune-build-info",
+  new Map([["opam:3.3.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__dune_build_info__opam__c__3.3.0__2b68f088/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/dune-build-info",
+                                             "opam:3.3.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/dune-configurator",
+  new Map([["opam:3.3.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__dune_configurator__opam__c__3.3.0__ed68d3e9/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base-unix", "opam:base"],
+                                             ["@opam/csexp", "opam:1.5.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/dune-configurator",
+                                             "opam:3.3.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/dune-rpc",
+  new Map([["opam:3.3.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__dune_rpc__opam__c__3.3.0__ffc3c6d4/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/csexp", "opam:1.5.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/dune-rpc", "opam:3.3.0"],
+                                             ["@opam/dyn", "opam:3.3.0"],
+                                             ["@opam/ordering", "opam:3.3.0"],
+                                             ["@opam/pp", "opam:1.1.2"],
+                                             ["@opam/stdune", "opam:3.3.0"],
+                                             ["@opam/xdg", "opam:3.3.0"]])}]])],
+  ["@opam/dyn",
+  new Map([["opam:3.3.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__dyn__opam__c__3.3.0__f142ac01/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/dyn", "opam:3.3.0"],
+                                             ["@opam/ordering", "opam:3.3.0"],
+                                             ["@opam/pp", "opam:1.1.2"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/either",
+  new Map([["opam:1.0.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__either__opam__c__1.0.0__29ca51fc/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/either", "opam:1.0.0"]])}]])],
+  ["@opam/fiber",
+  new Map([["opam:3.3.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__fiber__opam__c__3.3.0__c1a8eecf/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/dyn", "opam:3.3.0"],
+                                             ["@opam/fiber", "opam:3.3.0"],
+                                             ["@opam/stdune", "opam:3.3.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/fix",
+  new Map([["opam:20220121",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__fix__opam__c__20220121__091098a7/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/fix", "opam:20220121"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/fpath",
+  new Map([["opam:0.7.3",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__fpath__opam__c__0.7.3__18652e33/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/astring", "opam:0.8.5"],
+                                             ["@opam/fpath", "opam:0.7.3"],
+                                             ["@opam/ocamlbuild",
+                                             "opam:0.14.1"],
+                                             ["@opam/ocamlfind",
+                                             "opam:1.9.5"],
+                                             ["@opam/topkg", "opam:1.0.5"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/menhir",
+  new Map([["opam:20220210",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__menhir__opam__c__20220210__52de2da3/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/menhir",
+                                             "opam:20220210"],
+                                             ["@opam/menhirLib",
+                                             "opam:20220210"],
+                                             ["@opam/menhirSdk",
+                                             "opam:20220210"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/menhirLib",
+  new Map([["opam:20220210",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__menhirlib__opam__c__20220210__564172b3/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/menhirLib",
+                                             "opam:20220210"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/menhirSdk",
+  new Map([["opam:20220210",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__menhirsdk__opam__c__20220210__e8ae2395/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/menhirSdk",
+                                             "opam:20220210"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/ocaml-compiler-libs",
+  new Map([["opam:v0.12.4",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ocaml_compiler_libs__opam__c__v0.12.4__35cddb8b/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/ocaml-compiler-libs",
+                                             "opam:v0.12.4"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/ocaml-lsp-server",
+  new Map([["opam:1.11.6",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ocaml_lsp_server__opam__c__1.11.6__feeab0e0/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/csexp", "opam:1.5.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/dune-build-info",
+                                             "opam:3.3.0"],
+                                             ["@opam/dune-rpc", "opam:3.3.0"],
+                                             ["@opam/dyn", "opam:3.3.0"],
+                                             ["@opam/fiber", "opam:3.3.0"],
+                                             ["@opam/ocaml-lsp-server",
+                                             "opam:1.11.6"],
+                                             ["@opam/ocamlformat-rpc-lib",
+                                             "opam:0.22.4"],
+                                             ["@opam/octavius", "opam:1.2.2"],
+                                             ["@opam/omd", "opam:1.3.1"],
+                                             ["@opam/ordering", "opam:3.3.0"],
+                                             ["@opam/pp", "opam:1.1.2"],
+                                             ["@opam/ppx_yojson_conv_lib",
+                                             "opam:v0.15.0"],
+                                             ["@opam/re", "opam:1.10.4"],
+                                             ["@opam/spawn", "opam:v0.15.1"],
+                                             ["@opam/stdune", "opam:3.3.0"],
+                                             ["@opam/uutf", "opam:1.0.3"],
+                                             ["@opam/xdg", "opam:3.3.0"],
+                                             ["@opam/yojson", "opam:2.0.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/ocaml-version",
+  new Map([["opam:3.4.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ocaml_version__opam__c__3.4.0__416ba242/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/ocaml-version",
+                                             "opam:3.4.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/ocamlbuild",
+  new Map([["opam:0.14.1",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ocamlbuild__opam__c__0.14.1__3fd19d31/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/ocamlbuild",
+                                             "opam:0.14.1"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/ocamlfind",
+  new Map([["opam:1.9.5",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ocamlfind__opam__c__1.9.5__da1d264f/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/ocamlfind",
+                                             "opam:1.9.5"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/ocamlformat",
+  new Map([["opam:0.22.4",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ocamlformat__opam__c__0.22.4__c2fc1dd2/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base", "opam:v0.15.0"],
+                                             ["@opam/cmdliner", "opam:1.1.1"],
+                                             ["@opam/csexp", "opam:1.5.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/dune-build-info",
+                                             "opam:3.3.0"],
+                                             ["@opam/either", "opam:1.0.0"],
+                                             ["@opam/fix", "opam:20220121"],
+                                             ["@opam/fpath", "opam:0.7.3"],
+                                             ["@opam/menhir",
+                                             "opam:20220210"],
+                                             ["@opam/menhirLib",
+                                             "opam:20220210"],
+                                             ["@opam/menhirSdk",
+                                             "opam:20220210"],
+                                             ["@opam/ocaml-version",
+                                             "opam:3.4.0"],
+                                             ["@opam/ocamlformat",
+                                             "opam:0.22.4"],
+                                             ["@opam/ocp-indent",
+                                             "opam:1.8.1"],
+                                             ["@opam/odoc-parser",
+                                             "opam:1.0.0"],
+                                             ["@opam/re", "opam:1.10.4"],
+                                             ["@opam/stdio", "opam:v0.15.0"],
+                                             ["@opam/uuseg", "opam:14.0.0"],
+                                             ["@opam/uutf", "opam:1.0.3"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/ocamlformat-rpc-lib",
+  new Map([["opam:0.22.4",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ocamlformat_rpc_lib__opam__c__0.22.4__42c59004/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/csexp", "opam:1.5.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/ocamlformat-rpc-lib",
+                                             "opam:0.22.4"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/ocp-indent",
+  new Map([["opam:1.8.1",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ocp_indent__opam__c__1.8.1__2297d668/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base-bytes",
+                                             "opam:base"],
+                                             ["@opam/cmdliner", "opam:1.1.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/ocamlfind",
+                                             "opam:1.9.5"],
+                                             ["@opam/ocp-indent",
+                                             "opam:1.8.1"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/octavius",
+  new Map([["opam:1.2.2",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__octavius__opam__c__1.2.2__96807fc5/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/octavius", "opam:1.2.2"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/odoc-parser",
+  new Map([["opam:1.0.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__odoc_parser__opam__c__1.0.0__916d7350/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/astring", "opam:0.8.5"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/odoc-parser",
+                                             "opam:1.0.0"],
+                                             ["@opam/result", "opam:1.5"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/omd",
+  new Map([["opam:1.3.1",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__omd__opam__c__1.3.1__8cf3cdc5/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base-bigarray",
+                                             "opam:base"],
+                                             ["@opam/base-bytes",
+                                             "opam:base"],
+                                             ["@opam/ocamlbuild",
+                                             "opam:0.14.1"],
+                                             ["@opam/ocamlfind",
+                                             "opam:1.9.5"],
+                                             ["@opam/omd", "opam:1.3.1"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/ordering",
+  new Map([["opam:3.3.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ordering__opam__c__3.3.0__6a85eda3/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/ordering", "opam:3.3.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/pp",
+  new Map([["opam:1.1.2",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__pp__opam__c__1.1.2__ebad31ff/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/pp", "opam:1.1.2"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/ppx_derivers",
+  new Map([["opam:1.2.1",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ppx__derivers__opam__c__1.2.1__136a746e/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/ppx_derivers",
+                                             "opam:1.2.1"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/ppx_deriving",
+  new Map([["opam:5.2.1",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ppx__deriving__opam__c__5.2.1__7dc03006/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/cppo", "opam:1.6.9"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/ocamlfind",
+                                             "opam:1.9.5"],
+                                             ["@opam/ppx_derivers",
+                                             "opam:1.2.1"],
+                                             ["@opam/ppx_deriving",
+                                             "opam:5.2.1"],
+                                             ["@opam/ppxlib", "opam:0.27.0"],
+                                             ["@opam/result", "opam:1.5"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/ppx_yojson_conv_lib",
+  new Map([["opam:v0.15.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ppx__yojson__conv__lib__opam__c__v0.15.0__fba50f2c/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/ppx_yojson_conv_lib",
+                                             "opam:v0.15.0"],
+                                             ["@opam/yojson", "opam:2.0.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/ppxlib",
+  new Map([["opam:0.27.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ppxlib__opam__c__0.27.0__000459bd/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/ocaml-compiler-libs",
+                                             "opam:v0.12.4"],
+                                             ["@opam/ppx_derivers",
+                                             "opam:1.2.1"],
+                                             ["@opam/ppxlib", "opam:0.27.0"],
+                                             ["@opam/sexplib0",
+                                             "opam:v0.15.1"],
+                                             ["@opam/stdlib-shims",
+                                             "opam:0.3.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/re",
+  new Map([["opam:1.10.4",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__re__opam__c__1.10.4__39debd71/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/re", "opam:1.10.4"],
+                                             ["@opam/seq", "opam:base"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/result",
+  new Map([["opam:1.5",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__result__opam__c__1.5__74485f30/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/result", "opam:1.5"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/seq",
+  new Map([["opam:base",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__seq__opam__c__base__a0c677b1/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/seq", "opam:base"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/sexplib0",
+  new Map([["opam:v0.15.1",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__sexplib0__opam__c__v0.15.1__7e598e8d/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/sexplib0",
+                                             "opam:v0.15.1"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/spawn",
+  new Map([["opam:v0.15.1",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__spawn__opam__c__v0.15.1__cdb37477/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/spawn", "opam:v0.15.1"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/stdio",
+  new Map([["opam:v0.15.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__stdio__opam__c__v0.15.0__e67d3f73/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base", "opam:v0.15.0"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/stdio", "opam:v0.15.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/stdlib-shims",
+  new Map([["opam:0.3.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__stdlib_shims__opam__c__0.3.0__513c478f/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/stdlib-shims",
+                                             "opam:0.3.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/stdune",
+  new Map([["opam:3.3.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__stdune__opam__c__3.3.0__a60e2e21/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base-unix", "opam:base"],
+                                             ["@opam/csexp", "opam:1.5.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/dyn", "opam:3.3.0"],
+                                             ["@opam/ordering", "opam:3.3.0"],
+                                             ["@opam/pp", "opam:1.1.2"],
+                                             ["@opam/stdune", "opam:3.3.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/topkg",
+  new Map([["opam:1.0.5",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__topkg__opam__c__1.0.5__82377b68/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/ocamlbuild",
+                                             "opam:0.14.1"],
+                                             ["@opam/ocamlfind",
+                                             "opam:1.9.5"],
+                                             ["@opam/topkg", "opam:1.0.5"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/uucp",
+  new Map([["opam:14.0.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__uucp__opam__c__14.0.0__e45d1234/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/cmdliner", "opam:1.1.1"],
+                                             ["@opam/ocamlbuild",
+                                             "opam:0.14.1"],
+                                             ["@opam/ocamlfind",
+                                             "opam:1.9.5"],
+                                             ["@opam/topkg", "opam:1.0.5"],
+                                             ["@opam/uucp", "opam:14.0.0"],
+                                             ["@opam/uutf", "opam:1.0.3"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/uuseg",
+  new Map([["opam:14.0.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__uuseg__opam__c__14.0.0__ae751ed3/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/cmdliner", "opam:1.1.1"],
+                                             ["@opam/ocamlbuild",
+                                             "opam:0.14.1"],
+                                             ["@opam/ocamlfind",
+                                             "opam:1.9.5"],
+                                             ["@opam/topkg", "opam:1.0.5"],
+                                             ["@opam/uucp", "opam:14.0.0"],
+                                             ["@opam/uuseg", "opam:14.0.0"],
+                                             ["@opam/uutf", "opam:1.0.3"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/uutf",
+  new Map([["opam:1.0.3",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__uutf__opam__c__1.0.3__8c042452/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/cmdliner", "opam:1.1.1"],
+                                             ["@opam/ocamlbuild",
+                                             "opam:0.14.1"],
+                                             ["@opam/ocamlfind",
+                                             "opam:1.9.5"],
+                                             ["@opam/topkg", "opam:1.0.5"],
+                                             ["@opam/uutf", "opam:1.0.3"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/xdg",
+  new Map([["opam:3.3.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__xdg__opam__c__3.3.0__aeb60770/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/xdg", "opam:3.3.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["@opam/yojson",
+  new Map([["opam:2.0.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__yojson__opam__c__2.0.0__58a18cad/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/cppo", "opam:1.6.9"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/seq", "opam:base"],
+                                             ["@opam/yojson", "opam:2.0.0"],
+                                             ["ocaml", "4.14.0"]])}]])],
+  ["ocaml",
+  new Map([["4.14.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/ocaml__4.14.0__5c587ac3/",
+             packageDependencies: new Map([["ocaml", "4.14.0"]])}]])],
   [null,
   new Map([[null,
            {
              packageLocation: "/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/",
-             packageDependencies: new Map([["ocaml", "4.14.0"]])}]])]]);
+             packageDependencies: new Map([["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/ocaml-lsp-server",
+                                             "opam:1.11.6"],
+                                             ["@opam/ocamlformat",
+                                             "opam:0.22.4"],
+                                             ["@opam/ppx_deriving",
+                                             "opam:5.2.1"],
+                                             ["ocaml", "4.14.0"]])}]])]]);
 
 let topLevelLocatorPath = "../../";
 let locatorsByLocations = new Map([
 ["../../", topLevelLocator],
+  ["../../../../../../../.esy/source/i/esy_ocaml__s__substs__0.0.1__19de1ee1/",
+  {
+    name: "@esy-ocaml/substs",
+    reference: "0.0.1"}],
   ["../../../../../../../.esy/source/i/ocaml__4.14.0__5c587ac3/",
   {
     name: "ocaml",
-    reference: "4.14.0"}]]);
+    reference: "4.14.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__astring__opam__c__0.8.5__471b9e4a/",
+  {
+    name: "@opam/astring",
+    reference: "opam:0.8.5"}],
+  ["../../../../../../../.esy/source/i/opam__s__base__opam__c__v0.15.0__97538412/",
+  {
+    name: "@opam/base",
+    reference: "opam:v0.15.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__base_bigarray__opam__c__base__37a71828/",
+  {
+    name: "@opam/base-bigarray",
+    reference: "opam:base"}],
+  ["../../../../../../../.esy/source/i/opam__s__base_bytes__opam__c__base__48b6019a/",
+  {
+    name: "@opam/base-bytes",
+    reference: "opam:base"}],
+  ["../../../../../../../.esy/source/i/opam__s__base_threads__opam__c__base__f282958b/",
+  {
+    name: "@opam/base-threads",
+    reference: "opam:base"}],
+  ["../../../../../../../.esy/source/i/opam__s__base_unix__opam__c__base__93427a57/",
+  {
+    name: "@opam/base-unix",
+    reference: "opam:base"}],
+  ["../../../../../../../.esy/source/i/opam__s__cmdliner__opam__c__1.1.1__64439091/",
+  {
+    name: "@opam/cmdliner",
+    reference: "opam:1.1.1"}],
+  ["../../../../../../../.esy/source/i/opam__s__cppo__opam__c__1.6.9__327e8fcf/",
+  {
+    name: "@opam/cppo",
+    reference: "opam:1.6.9"}],
+  ["../../../../../../../.esy/source/i/opam__s__csexp__opam__c__1.5.1__a5d42d7e/",
+  {
+    name: "@opam/csexp",
+    reference: "opam:1.5.1"}],
+  ["../../../../../../../.esy/source/i/opam__s__dune__opam__c__3.3.0__243904f5/",
+  {
+    name: "@opam/dune",
+    reference: "opam:3.3.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__dune_build_info__opam__c__3.3.0__2b68f088/",
+  {
+    name: "@opam/dune-build-info",
+    reference: "opam:3.3.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__dune_configurator__opam__c__3.3.0__ed68d3e9/",
+  {
+    name: "@opam/dune-configurator",
+    reference: "opam:3.3.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__dune_rpc__opam__c__3.3.0__ffc3c6d4/",
+  {
+    name: "@opam/dune-rpc",
+    reference: "opam:3.3.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__dyn__opam__c__3.3.0__f142ac01/",
+  {
+    name: "@opam/dyn",
+    reference: "opam:3.3.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__either__opam__c__1.0.0__29ca51fc/",
+  {
+    name: "@opam/either",
+    reference: "opam:1.0.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__fiber__opam__c__3.3.0__c1a8eecf/",
+  {
+    name: "@opam/fiber",
+    reference: "opam:3.3.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__fix__opam__c__20220121__091098a7/",
+  {
+    name: "@opam/fix",
+    reference: "opam:20220121"}],
+  ["../../../../../../../.esy/source/i/opam__s__fpath__opam__c__0.7.3__18652e33/",
+  {
+    name: "@opam/fpath",
+    reference: "opam:0.7.3"}],
+  ["../../../../../../../.esy/source/i/opam__s__menhir__opam__c__20220210__52de2da3/",
+  {
+    name: "@opam/menhir",
+    reference: "opam:20220210"}],
+  ["../../../../../../../.esy/source/i/opam__s__menhirlib__opam__c__20220210__564172b3/",
+  {
+    name: "@opam/menhirLib",
+    reference: "opam:20220210"}],
+  ["../../../../../../../.esy/source/i/opam__s__menhirsdk__opam__c__20220210__e8ae2395/",
+  {
+    name: "@opam/menhirSdk",
+    reference: "opam:20220210"}],
+  ["../../../../../../../.esy/source/i/opam__s__ocaml_compiler_libs__opam__c__v0.12.4__35cddb8b/",
+  {
+    name: "@opam/ocaml-compiler-libs",
+    reference: "opam:v0.12.4"}],
+  ["../../../../../../../.esy/source/i/opam__s__ocaml_lsp_server__opam__c__1.11.6__feeab0e0/",
+  {
+    name: "@opam/ocaml-lsp-server",
+    reference: "opam:1.11.6"}],
+  ["../../../../../../../.esy/source/i/opam__s__ocaml_version__opam__c__3.4.0__416ba242/",
+  {
+    name: "@opam/ocaml-version",
+    reference: "opam:3.4.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__ocamlbuild__opam__c__0.14.1__3fd19d31/",
+  {
+    name: "@opam/ocamlbuild",
+    reference: "opam:0.14.1"}],
+  ["../../../../../../../.esy/source/i/opam__s__ocamlfind__opam__c__1.9.5__da1d264f/",
+  {
+    name: "@opam/ocamlfind",
+    reference: "opam:1.9.5"}],
+  ["../../../../../../../.esy/source/i/opam__s__ocamlformat__opam__c__0.22.4__c2fc1dd2/",
+  {
+    name: "@opam/ocamlformat",
+    reference: "opam:0.22.4"}],
+  ["../../../../../../../.esy/source/i/opam__s__ocamlformat_rpc_lib__opam__c__0.22.4__42c59004/",
+  {
+    name: "@opam/ocamlformat-rpc-lib",
+    reference: "opam:0.22.4"}],
+  ["../../../../../../../.esy/source/i/opam__s__ocp_indent__opam__c__1.8.1__2297d668/",
+  {
+    name: "@opam/ocp-indent",
+    reference: "opam:1.8.1"}],
+  ["../../../../../../../.esy/source/i/opam__s__octavius__opam__c__1.2.2__96807fc5/",
+  {
+    name: "@opam/octavius",
+    reference: "opam:1.2.2"}],
+  ["../../../../../../../.esy/source/i/opam__s__odoc_parser__opam__c__1.0.0__916d7350/",
+  {
+    name: "@opam/odoc-parser",
+    reference: "opam:1.0.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__omd__opam__c__1.3.1__8cf3cdc5/",
+  {
+    name: "@opam/omd",
+    reference: "opam:1.3.1"}],
+  ["../../../../../../../.esy/source/i/opam__s__ordering__opam__c__3.3.0__6a85eda3/",
+  {
+    name: "@opam/ordering",
+    reference: "opam:3.3.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__pp__opam__c__1.1.2__ebad31ff/",
+  {
+    name: "@opam/pp",
+    reference: "opam:1.1.2"}],
+  ["../../../../../../../.esy/source/i/opam__s__ppx__derivers__opam__c__1.2.1__136a746e/",
+  {
+    name: "@opam/ppx_derivers",
+    reference: "opam:1.2.1"}],
+  ["../../../../../../../.esy/source/i/opam__s__ppx__deriving__opam__c__5.2.1__7dc03006/",
+  {
+    name: "@opam/ppx_deriving",
+    reference: "opam:5.2.1"}],
+  ["../../../../../../../.esy/source/i/opam__s__ppx__yojson__conv__lib__opam__c__v0.15.0__fba50f2c/",
+  {
+    name: "@opam/ppx_yojson_conv_lib",
+    reference: "opam:v0.15.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__ppxlib__opam__c__0.27.0__000459bd/",
+  {
+    name: "@opam/ppxlib",
+    reference: "opam:0.27.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__re__opam__c__1.10.4__39debd71/",
+  {
+    name: "@opam/re",
+    reference: "opam:1.10.4"}],
+  ["../../../../../../../.esy/source/i/opam__s__result__opam__c__1.5__74485f30/",
+  {
+    name: "@opam/result",
+    reference: "opam:1.5"}],
+  ["../../../../../../../.esy/source/i/opam__s__seq__opam__c__base__a0c677b1/",
+  {
+    name: "@opam/seq",
+    reference: "opam:base"}],
+  ["../../../../../../../.esy/source/i/opam__s__sexplib0__opam__c__v0.15.1__7e598e8d/",
+  {
+    name: "@opam/sexplib0",
+    reference: "opam:v0.15.1"}],
+  ["../../../../../../../.esy/source/i/opam__s__spawn__opam__c__v0.15.1__cdb37477/",
+  {
+    name: "@opam/spawn",
+    reference: "opam:v0.15.1"}],
+  ["../../../../../../../.esy/source/i/opam__s__stdio__opam__c__v0.15.0__e67d3f73/",
+  {
+    name: "@opam/stdio",
+    reference: "opam:v0.15.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__stdlib_shims__opam__c__0.3.0__513c478f/",
+  {
+    name: "@opam/stdlib-shims",
+    reference: "opam:0.3.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__stdune__opam__c__3.3.0__a60e2e21/",
+  {
+    name: "@opam/stdune",
+    reference: "opam:3.3.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__topkg__opam__c__1.0.5__82377b68/",
+  {
+    name: "@opam/topkg",
+    reference: "opam:1.0.5"}],
+  ["../../../../../../../.esy/source/i/opam__s__uucp__opam__c__14.0.0__e45d1234/",
+  {
+    name: "@opam/uucp",
+    reference: "opam:14.0.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__uuseg__opam__c__14.0.0__ae751ed3/",
+  {
+    name: "@opam/uuseg",
+    reference: "opam:14.0.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__uutf__opam__c__1.0.3__8c042452/",
+  {
+    name: "@opam/uutf",
+    reference: "opam:1.0.3"}],
+  ["../../../../../../../.esy/source/i/opam__s__xdg__opam__c__3.3.0__aeb60770/",
+  {
+    name: "@opam/xdg",
+    reference: "opam:3.3.0"}],
+  ["../../../../../../../.esy/source/i/opam__s__yojson__opam__c__2.0.0__58a18cad/",
+  {
+    name: "@opam/yojson",
+    reference: "opam:2.0.0"}]]);
 
 
   exports.findPackageLocator = function findPackageLocator(location) {
@@ -122,6 +910,91 @@ let locatorsByLocations = new Map([
     let match;
 
   
+      if (relativeLocation.length >= 95 && relativeLocation[94] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 95)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 92 && relativeLocation[91] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 92)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 91 && relativeLocation[90] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 91)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 88 && relativeLocation[87] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 88)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 86 && relativeLocation[85] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 86)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 84 && relativeLocation[83] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 84)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 83 && relativeLocation[82] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 83)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 82 && relativeLocation[81] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 82)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 81 && relativeLocation[80] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 81)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 80 && relativeLocation[79] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 80)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 79 && relativeLocation[78] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 79)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 78 && relativeLocation[77] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 78)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 77 && relativeLocation[76] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 77)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 76 && relativeLocation[75] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 76)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 75 && relativeLocation[74] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 75)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 74 && relativeLocation[73] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 74)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 73 && relativeLocation[72] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 73)))
+          return blacklistCheck(match);
+      
+
       if (relativeLocation.length >= 59 && relativeLocation[58] === '/')
         if (match = locatorsByLocations.get(relativeLocation.substr(0, 59)))
           return blacklistCheck(match);
