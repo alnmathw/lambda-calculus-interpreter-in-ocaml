@@ -1,6 +1,7 @@
 {
+  "name": "alan-interpreter",
   "dependencies": {
-    "ocaml": "*",
+    "ocaml": "4.12.x",
     "@opam/dune": "*",
     "@opam/ppx_deriving": "*",
     "@opam/menhir": "*",

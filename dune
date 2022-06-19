@@ -10,7 +10,7 @@
  (modules parser))
 
 (rule
- (alias runinterpreter)
+ (alias interpreter)
  (deps ./interpreter.exe)
  (action
   (run ./interpreter.exe)))
