@@ -2,5 +2,15 @@
  (name interpreter)
  (flags
   (:standard -rectypes))
+ (libraries menhirLib sedlex)
  (preprocess
-  (pps ppx_deriving.show)))
+  (pps ppx_deriving.show sedlex.ppx)))
+
+(menhir
+ (modules parser))
+
+(rule
+ (alias runinterpreter)
+ (deps ./interpreter.exe)
+ (action
+  (run ./interpreter.exe)))
