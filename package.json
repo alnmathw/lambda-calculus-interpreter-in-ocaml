@@ -1,11 +1,13 @@
 {
-    "dependencies": {
-        "ocaml": "*",
-        "@opam/dune": "*",
-        "@opam/ppx_deriving": "*"
-      },
-      "devDependencies": {
-        "@opam/ocaml-lsp-server": "*",
-        "@opam/ocamlformat": "*"
-      }
+  "dependencies": {
+    "ocaml": "*",
+    "@opam/dune": "*",
+    "@opam/ppx_deriving": "*",
+    "@opam/menhir": "*",
+    "@opam/sedlex": "*"
+  },
+  "devDependencies": {
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/ocamlformat": "*"
   }
+}
