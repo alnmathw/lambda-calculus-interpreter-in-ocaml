@@ -3,7 +3,8 @@
     "ocaml": "*",
     "@opam/dune": "*",
     "@opam/ppx_deriving": "*",
-    "@opam/menhir": "*"
+    "@opam/menhir": "*",
+    "@opam/sedlex": "*"
   },
   "devDependencies": {
     "@opam/ocaml-lsp-server": "*",
