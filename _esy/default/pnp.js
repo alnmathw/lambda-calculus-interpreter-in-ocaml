@@ -166,19 +166,6 @@ new Map([["0.0.1",
                                              ["@opam/csexp", "opam:1.5.1"],
                                              ["@opam/dune", "opam:3.3.0"],
                                              ["ocaml", "4.12.1001"]])}]])],
-  ["@opam/dot-merlin-reader",
-  new Map([["opam:4.2",
-           {
-             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__dot_merlin_reader__opam__c__4.2__8e0cd6bf/",
-             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
-                                             ["@opam/csexp", "opam:1.5.1"],
-                                             ["@opam/dot-merlin-reader",
-                                             "opam:4.2"],
-                                             ["@opam/dune", "opam:3.3.0"],
-                                             ["@opam/ocamlfind",
-                                             "opam:1.9.5"],
-                                             ["@opam/yojson", "opam:2.0.0"],
-                                             ["ocaml", "4.12.1001"]])}]])],
   ["@opam/dune",
   new Map([["opam:3.3.0",
            {
@@ -237,6 +224,19 @@ new Map([["0.0.1",
                                              "opam:1.9.5"],
                                              ["@opam/topkg", "opam:1.0.5"],
                                              ["ocaml", "4.12.1001"]])}]])],
+  ["@opam/gen",
+  new Map([["opam:1.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__gen__opam__c__1.0__86f471b9/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/base-bytes",
+                                             "opam:base"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/dune-configurator",
+                                             "opam:3.3.0"],
+                                             ["@opam/gen", "opam:1.0"],
+                                             ["@opam/seq", "opam:base"],
+                                             ["ocaml", "4.12.1001"]])}]])],
   ["@opam/menhir",
   new Map([["opam:20220210",
            {
@@ -278,23 +278,24 @@ new Map([["0.0.1",
                                              "opam:v0.12.4"],
                                              ["ocaml", "4.12.1001"]])}]])],
   ["@opam/ocaml-lsp-server",
-  new Map([["opam:1.7.0",
+  new Map([["opam:1.9.0",
            {
-             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ocaml_lsp_server__opam__c__1.7.0__8dd35f22/",
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ocaml_lsp_server__opam__c__1.9.0__342ea46d/",
              packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
                                              ["@opam/csexp", "opam:1.5.1"],
-                                             ["@opam/dot-merlin-reader",
-                                             "opam:4.2"],
                                              ["@opam/dune", "opam:3.3.0"],
                                              ["@opam/dune-build-info",
                                              "opam:3.3.0"],
                                              ["@opam/ocaml-lsp-server",
-                                             "opam:1.7.0"],
+                                             "opam:1.9.0"],
+                                             ["@opam/ocamlformat-rpc-lib",
+                                             "opam:0.19.0"],
                                              ["@opam/pp", "opam:1.1.2"],
                                              ["@opam/ppx_yojson_conv_lib",
                                              "opam:v0.15.0"],
                                              ["@opam/re", "opam:1.10.4"],
                                              ["@opam/result", "opam:1.5"],
+                                             ["@opam/spawn", "opam:v0.15.1"],
                                              ["@opam/yojson", "opam:2.0.0"],
                                              ["ocaml", "4.12.1001"]])}]])],
   ["@opam/ocaml-version",
@@ -354,6 +355,18 @@ new Map([["0.0.1",
                                              ["@opam/stdio", "opam:v0.15.0"],
                                              ["@opam/uuseg", "opam:14.0.0"],
                                              ["@opam/uutf", "opam:1.0.3"],
+                                             ["ocaml", "4.12.1001"]])}]])],
+  ["@opam/ocamlformat-rpc-lib",
+  new Map([["opam:0.19.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__ocamlformat_rpc_lib__opam__c__0.19.0__a218b2b0/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/csexp", "opam:1.5.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/ocamlformat-rpc-lib",
+                                             "opam:0.19.0"],
+                                             ["@opam/sexplib0",
+                                             "opam:v0.15.1"],
                                              ["ocaml", "4.12.1001"]])}]])],
   ["@opam/ocp-indent",
   new Map([["opam:1.8.1",
@@ -456,6 +469,17 @@ new Map([["0.0.1",
                                              ["@opam/dune", "opam:3.3.0"],
                                              ["@opam/result", "opam:1.5"],
                                              ["ocaml", "4.12.1001"]])}]])],
+  ["@opam/sedlex",
+  new Map([["opam:3.0",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__sedlex__opam__c__3.0__c97a9e57/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/gen", "opam:1.0"],
+                                             ["@opam/ppxlib", "opam:0.27.0"],
+                                             ["@opam/sedlex", "opam:3.0"],
+                                             ["@opam/uchar", "opam:0.0.2"],
+                                             ["ocaml", "4.12.1001"]])}]])],
   ["@opam/seq",
   new Map([["opam:base",
            {
@@ -471,6 +495,14 @@ new Map([["0.0.1",
                                              ["@opam/dune", "opam:3.3.0"],
                                              ["@opam/sexplib0",
                                              "opam:v0.15.1"],
+                                             ["ocaml", "4.12.1001"]])}]])],
+  ["@opam/spawn",
+  new Map([["opam:v0.15.1",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__spawn__opam__c__v0.15.1__cdb37477/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/spawn", "opam:v0.15.1"],
                                              ["ocaml", "4.12.1001"]])}]])],
   ["@opam/stdio",
   new Map([["opam:v0.15.0",
@@ -500,6 +532,15 @@ new Map([["0.0.1",
                                              ["@opam/ocamlfind",
                                              "opam:1.9.5"],
                                              ["@opam/topkg", "opam:1.0.5"],
+                                             ["ocaml", "4.12.1001"]])}]])],
+  ["@opam/uchar",
+  new Map([["opam:0.0.2",
+           {
+             packageLocation: "/home/alnmathw/.esy/source/i/opam__s__uchar__opam__c__0.0.2__0292ad2f/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/ocamlbuild",
+                                             "opam:0.14.1"],
+                                             ["@opam/uchar", "opam:0.0.2"],
                                              ["ocaml", "4.12.1001"]])}]])],
   ["@opam/uucp",
   new Map([["opam:14.0.0",
@@ -563,12 +604,15 @@ new Map([["0.0.1",
            {
              packageLocation: "/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/",
              packageDependencies: new Map([["@opam/dune", "opam:3.3.0"],
+                                             ["@opam/menhir",
+                                             "opam:20220210"],
                                              ["@opam/ocaml-lsp-server",
-                                             "opam:1.7.0"],
+                                             "opam:1.9.0"],
                                              ["@opam/ocamlformat",
                                              "opam:0.22.4"],
                                              ["@opam/ppx_deriving",
                                              "opam:5.2.1"],
+                                             ["@opam/sedlex", "opam:3.0"],
                                              ["ocaml", "4.12.1001"]])}]])]]);
 
 let topLevelLocatorPath = "../../";
@@ -614,10 +658,6 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/csexp",
     reference: "opam:1.5.1"}],
-  ["../../../../../../../.esy/source/i/opam__s__dot_merlin_reader__opam__c__4.2__8e0cd6bf/",
-  {
-    name: "@opam/dot-merlin-reader",
-    reference: "opam:4.2"}],
   ["../../../../../../../.esy/source/i/opam__s__dune__opam__c__3.3.0__243904f5/",
   {
     name: "@opam/dune",
@@ -642,6 +682,10 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/fpath",
     reference: "opam:0.7.3"}],
+  ["../../../../../../../.esy/source/i/opam__s__gen__opam__c__1.0__86f471b9/",
+  {
+    name: "@opam/gen",
+    reference: "opam:1.0"}],
   ["../../../../../../../.esy/source/i/opam__s__menhir__opam__c__20220210__52de2da3/",
   {
     name: "@opam/menhir",
@@ -658,10 +702,10 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/ocaml-compiler-libs",
     reference: "opam:v0.12.4"}],
-  ["../../../../../../../.esy/source/i/opam__s__ocaml_lsp_server__opam__c__1.7.0__8dd35f22/",
+  ["../../../../../../../.esy/source/i/opam__s__ocaml_lsp_server__opam__c__1.9.0__342ea46d/",
   {
     name: "@opam/ocaml-lsp-server",
-    reference: "opam:1.7.0"}],
+    reference: "opam:1.9.0"}],
   ["../../../../../../../.esy/source/i/opam__s__ocaml_version__opam__c__3.4.0__416ba242/",
   {
     name: "@opam/ocaml-version",
@@ -678,6 +722,10 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/ocamlformat",
     reference: "opam:0.22.4"}],
+  ["../../../../../../../.esy/source/i/opam__s__ocamlformat_rpc_lib__opam__c__0.19.0__a218b2b0/",
+  {
+    name: "@opam/ocamlformat-rpc-lib",
+    reference: "opam:0.19.0"}],
   ["../../../../../../../.esy/source/i/opam__s__ocp_indent__opam__c__1.8.1__2297d668/",
   {
     name: "@opam/ocp-indent",
@@ -714,6 +762,10 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/result",
     reference: "opam:1.5"}],
+  ["../../../../../../../.esy/source/i/opam__s__sedlex__opam__c__3.0__c97a9e57/",
+  {
+    name: "@opam/sedlex",
+    reference: "opam:3.0"}],
   ["../../../../../../../.esy/source/i/opam__s__seq__opam__c__base__a0c677b1/",
   {
     name: "@opam/seq",
@@ -721,6 +773,10 @@ let locatorsByLocations = new Map([
   ["../../../../../../../.esy/source/i/opam__s__sexplib0__opam__c__v0.15.1__7e598e8d/",
   {
     name: "@opam/sexplib0",
+    reference: "opam:v0.15.1"}],
+  ["../../../../../../../.esy/source/i/opam__s__spawn__opam__c__v0.15.1__cdb37477/",
+  {
+    name: "@opam/spawn",
     reference: "opam:v0.15.1"}],
   ["../../../../../../../.esy/source/i/opam__s__stdio__opam__c__v0.15.0__e67d3f73/",
   {
@@ -734,6 +790,10 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/topkg",
     reference: "opam:1.0.5"}],
+  ["../../../../../../../.esy/source/i/opam__s__uchar__opam__c__0.0.2__0292ad2f/",
+  {
+    name: "@opam/uchar",
+    reference: "opam:0.0.2"}],
   ["../../../../../../../.esy/source/i/opam__s__uucp__opam__c__14.0.0__e45d1234/",
   {
     name: "@opam/uucp",
@@ -771,6 +831,11 @@ let locatorsByLocations = new Map([
 
       if (relativeLocation.length >= 92 && relativeLocation[91] === '/')
         if (match = locatorsByLocations.get(relativeLocation.substr(0, 92)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 91 && relativeLocation[90] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 91)))
           return blacklistCheck(match);
       
 
@@ -846,6 +911,11 @@ let locatorsByLocations = new Map([
 
       if (relativeLocation.length >= 73 && relativeLocation[72] === '/')
         if (match = locatorsByLocations.get(relativeLocation.substr(0, 73)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 72 && relativeLocation[71] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 72)))
           return blacklistCheck(match);
       
 

@@ -23,6 +23,7 @@ export NVM_CD_FLAGS=''
 export VSCODE_GIT_ASKPASS_MAIN='/home/alnmathw/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/extensions/git/dist/askpass-main.js'
 export NVM_BIN='/home/alnmathw/.nvm/versions/node/v12.16.3/bin'
 export _='/home/alnmathw/.nvm/versions/node/v12.16.3/lib/node_modules/esy/3/i/esy-71a059e4/bin/esy'
+export OLDPWD='/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml'
 export OPAM_SWITCH_PREFIX='/home/alnmathw/.opam/default'
 export LANG='C.UTF-8'
 export SDKMAN_CANDIDATES_DIR='/home/alnmathw/.sdkman/candidates'
@@ -55,22 +56,22 @@ export SDKMAN_PLATFORM='linuxx64'
 export VSCODE_GIT_ASKPASS_EXTRA_ARGS=''
 export SHELL='/bin/bash'
 export PATH="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/bin:$PATH"
-export cur__etc="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/simple_typed_lambda_calculus_in_ocaml-15b84ba2/etc"
-export cur__share="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/simple_typed_lambda_calculus_in_ocaml-15b84ba2/share"
-export cur__toplevel="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/simple_typed_lambda_calculus_in_ocaml-15b84ba2/toplevel"
-export cur__stublibs="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/simple_typed_lambda_calculus_in_ocaml-15b84ba2/stublibs"
-export cur__doc="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/simple_typed_lambda_calculus_in_ocaml-15b84ba2/doc"
-export cur__man="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/simple_typed_lambda_calculus_in_ocaml-15b84ba2/man"
-export cur__lib="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/simple_typed_lambda_calculus_in_ocaml-15b84ba2/lib"
-export cur__sbin="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/simple_typed_lambda_calculus_in_ocaml-15b84ba2/sbin"
-export cur__bin="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/simple_typed_lambda_calculus_in_ocaml-15b84ba2/bin"
-export cur__install="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/simple_typed_lambda_calculus_in_ocaml-15b84ba2"
-export cur__target_dir="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/b/simple_typed_lambda_calculus_in_ocaml-15b84ba2"
+export cur__etc="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/parser_for_kids_in_ocaml_with_menhir-6cd1f619/etc"
+export cur__share="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/parser_for_kids_in_ocaml_with_menhir-6cd1f619/share"
+export cur__toplevel="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/parser_for_kids_in_ocaml_with_menhir-6cd1f619/toplevel"
+export cur__stublibs="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/parser_for_kids_in_ocaml_with_menhir-6cd1f619/stublibs"
+export cur__doc="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/parser_for_kids_in_ocaml_with_menhir-6cd1f619/doc"
+export cur__man="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/parser_for_kids_in_ocaml_with_menhir-6cd1f619/man"
+export cur__lib="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/parser_for_kids_in_ocaml_with_menhir-6cd1f619/lib"
+export cur__sbin="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/parser_for_kids_in_ocaml_with_menhir-6cd1f619/sbin"
+export cur__bin="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/parser_for_kids_in_ocaml_with_menhir-6cd1f619/bin"
+export cur__install="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/parser_for_kids_in_ocaml_with_menhir-6cd1f619"
+export cur__target_dir="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/b/parser_for_kids_in_ocaml_with_menhir-6cd1f619"
 export cur__original_root="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml"
 export cur__root="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml"
 export cur__dev="true"
 export cur__version="link-dev:./package.json"
-export cur__name="simple-typed-lambda-calculus-in-ocaml"
+export cur__name="parser-for-kids-in-ocaml-with-menhir"
 
 #
 # @opam/stdlib-shims@opam:0.3.0@72c7bc98
@@ -129,14 +130,6 @@ export MAN_PATH="/home/alnmathw/.esy/3__________________________________________
 export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__astring-opam__c__0.8.5-085009ed/bin:$PATH"
 
 #
-# @opam/sexplib0@opam:v0.15.1@51111c0c
-#
-export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sexplib0-opam__c__v0.15.1-f1a9041a/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sexplib0-opam__c__v0.15.1-f1a9041a/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sexplib0-opam__c__v0.15.1-f1a9041a/lib:$OCAMLPATH"
-export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sexplib0-opam__c__v0.15.1-f1a9041a/man:$MAN_PATH"
-export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sexplib0-opam__c__v0.15.1-f1a9041a/bin:$PATH"
-
-#
 # @opam/dune-configurator@opam:3.3.0@0905b699
 #
 export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__dune_configurator-opam__c__3.3.0-44165ef5/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__dune_configurator-opam__c__3.3.0-44165ef5/lib/stublibs:$CAML_LD_LIBRARY_PATH"
@@ -151,6 +144,30 @@ export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3______________________________
 export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__seq-opam__c__base-ce700f48/lib:$OCAMLPATH"
 export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__seq-opam__c__base-ce700f48/man:$MAN_PATH"
 export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__seq-opam__c__base-ce700f48/bin:$PATH"
+
+#
+# @opam/sexplib0@opam:v0.15.1@51111c0c
+#
+export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sexplib0-opam__c__v0.15.1-f1a9041a/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sexplib0-opam__c__v0.15.1-f1a9041a/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sexplib0-opam__c__v0.15.1-f1a9041a/lib:$OCAMLPATH"
+export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sexplib0-opam__c__v0.15.1-f1a9041a/man:$MAN_PATH"
+export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sexplib0-opam__c__v0.15.1-f1a9041a/bin:$PATH"
+
+#
+# @opam/uchar@opam:0.0.2@aedf91f9
+#
+export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-fec5eba6/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-fec5eba6/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-fec5eba6/lib:$OCAMLPATH"
+export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-fec5eba6/man:$MAN_PATH"
+export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-fec5eba6/bin:$PATH"
+
+#
+# @opam/gen@opam:1.0@eb721ea1
+#
+export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__gen-opam__c__1.0-474c0f94/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__gen-opam__c__1.0-474c0f94/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__gen-opam__c__1.0-474c0f94/lib:$OCAMLPATH"
+export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__gen-opam__c__1.0-474c0f94/man:$MAN_PATH"
+export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__gen-opam__c__1.0-474c0f94/bin:$PATH"
 
 #
 # @opam/ppxlib@opam:0.27.0@08d8f65d
@@ -234,30 +251,6 @@ export MAN_PATH="/home/alnmathw/.esy/3__________________________________________
 export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocaml_version-opam__c__3.4.0-c10525c1/bin:$PATH"
 
 #
-# @opam/menhirSdk@opam:20220210@b8921e41
-#
-export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirsdk-opam__c__20220210-dd46ed7a/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirsdk-opam__c__20220210-dd46ed7a/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirsdk-opam__c__20220210-dd46ed7a/lib:$OCAMLPATH"
-export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirsdk-opam__c__20220210-dd46ed7a/man:$MAN_PATH"
-export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirsdk-opam__c__20220210-dd46ed7a/bin:$PATH"
-
-#
-# @opam/menhirLib@opam:20220210@e6562f4f
-#
-export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirlib-opam__c__20220210-9af4caa3/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirlib-opam__c__20220210-9af4caa3/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirlib-opam__c__20220210-9af4caa3/lib:$OCAMLPATH"
-export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirlib-opam__c__20220210-9af4caa3/man:$MAN_PATH"
-export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirlib-opam__c__20220210-9af4caa3/bin:$PATH"
-
-#
-# @opam/menhir@opam:20220210@ff87a93b
-#
-export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhir-opam__c__20220210-d8e6aff8/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhir-opam__c__20220210-d8e6aff8/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhir-opam__c__20220210-d8e6aff8/lib:$OCAMLPATH"
-export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhir-opam__c__20220210-d8e6aff8/man:$MAN_PATH"
-export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhir-opam__c__20220210-d8e6aff8/bin:$PATH"
-
-#
 # @opam/fpath@opam:0.7.3@674d8125
 #
 export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__fpath-opam__c__0.7.3-b670236f/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__fpath-opam__c__0.7.3-b670236f/lib/stublibs:$CAML_LD_LIBRARY_PATH"
@@ -306,6 +299,14 @@ export MAN_PATH="/home/alnmathw/.esy/3__________________________________________
 export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__yojson-opam__c__2.0.0-50599080/bin:$PATH"
 
 #
+# @opam/spawn@opam:v0.15.1@85e9d6f1
+#
+export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__spawn-opam__c__v0.15.1-44f05e6d/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__spawn-opam__c__v0.15.1-44f05e6d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__spawn-opam__c__v0.15.1-44f05e6d/lib:$OCAMLPATH"
+export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__spawn-opam__c__v0.15.1-44f05e6d/man:$MAN_PATH"
+export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__spawn-opam__c__v0.15.1-44f05e6d/bin:$PATH"
+
+#
 # @opam/result@opam:1.5@1c6a6533
 #
 export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__result-opam__c__1.5-62f68cce/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__result-opam__c__1.5-62f68cce/lib/stublibs:$CAML_LD_LIBRARY_PATH"
@@ -338,6 +339,14 @@ export MAN_PATH="/home/alnmathw/.esy/3__________________________________________
 export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__pp-opam__c__1.1.2-7dc23a5a/bin:$PATH"
 
 #
+# @opam/ocamlformat-rpc-lib@opam:0.19.0@125cf11d
+#
+export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocamlformat_rpc_lib-opam__c__0.19.0-788d4fe9/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocamlformat_rpc_lib-opam__c__0.19.0-788d4fe9/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocamlformat_rpc_lib-opam__c__0.19.0-788d4fe9/lib:$OCAMLPATH"
+export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocamlformat_rpc_lib-opam__c__0.19.0-788d4fe9/man:$MAN_PATH"
+export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocamlformat_rpc_lib-opam__c__0.19.0-788d4fe9/bin:$PATH"
+
+#
 # @opam/dune-build-info@opam:3.3.0@1f160f9f
 #
 export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__dune_build_info-opam__c__3.3.0-21aa0da8/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__dune_build_info-opam__c__3.3.0-21aa0da8/lib/stublibs:$CAML_LD_LIBRARY_PATH"
@@ -346,20 +355,28 @@ export MAN_PATH="/home/alnmathw/.esy/3__________________________________________
 export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__dune_build_info-opam__c__3.3.0-21aa0da8/bin:$PATH"
 
 #
-# @opam/dot-merlin-reader@opam:4.2@1605899e
-#
-export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__dot_merlin_reader-opam__c__4.2-c826c1fc/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__dot_merlin_reader-opam__c__4.2-c826c1fc/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__dot_merlin_reader-opam__c__4.2-c826c1fc/lib:$OCAMLPATH"
-export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__dot_merlin_reader-opam__c__4.2-c826c1fc/man:$MAN_PATH"
-export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__dot_merlin_reader-opam__c__4.2-c826c1fc/bin:$PATH"
-
-#
 # @opam/csexp@opam:1.5.1@8a8fb3a7
 #
 export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__csexp-opam__c__1.5.1-ae9fc68d/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__csexp-opam__c__1.5.1-ae9fc68d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
 export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__csexp-opam__c__1.5.1-ae9fc68d/lib:$OCAMLPATH"
 export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__csexp-opam__c__1.5.1-ae9fc68d/man:$MAN_PATH"
 export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__csexp-opam__c__1.5.1-ae9fc68d/bin:$PATH"
+
+#
+# @opam/menhirSdk@opam:20220210@b8921e41
+#
+export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirsdk-opam__c__20220210-dd46ed7a/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirsdk-opam__c__20220210-dd46ed7a/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirsdk-opam__c__20220210-dd46ed7a/lib:$OCAMLPATH"
+export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirsdk-opam__c__20220210-dd46ed7a/man:$MAN_PATH"
+export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirsdk-opam__c__20220210-dd46ed7a/bin:$PATH"
+
+#
+# @opam/menhirLib@opam:20220210@e6562f4f
+#
+export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirlib-opam__c__20220210-9af4caa3/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirlib-opam__c__20220210-9af4caa3/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirlib-opam__c__20220210-9af4caa3/lib:$OCAMLPATH"
+export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirlib-opam__c__20220210-9af4caa3/man:$MAN_PATH"
+export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhirlib-opam__c__20220210-9af4caa3/bin:$PATH"
 
 #
 # @opam/base-unix@opam:base@87d0b2eb
@@ -396,6 +413,14 @@ export MAN_PATH="/home/alnmathw/.esy/3__________________________________________
 export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/ocaml-4.12.1001-d0588c96/bin:$PATH"
 
 #
+# @opam/sedlex@opam:3.0@6e37d05e
+#
+export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sedlex-opam__c__3.0-652aae53/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sedlex-opam__c__3.0-652aae53/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sedlex-opam__c__3.0-652aae53/lib:$OCAMLPATH"
+export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sedlex-opam__c__3.0-652aae53/man:$MAN_PATH"
+export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__sedlex-opam__c__3.0-652aae53/bin:$PATH"
+
+#
 # @opam/ppx_deriving@opam:5.2.1@089e5dd3
 #
 export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ppx__deriving-opam__c__5.2.1-1911172d/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ppx__deriving-opam__c__5.2.1-1911172d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
@@ -412,12 +437,20 @@ export MAN_PATH="/home/alnmathw/.esy/3__________________________________________
 export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocamlformat-opam__c__0.22.4-bcbea109/bin:$PATH"
 
 #
-# @opam/ocaml-lsp-server@opam:1.7.0@2cdbe0ed
+# @opam/ocaml-lsp-server@opam:1.9.0@671f2077
 #
-export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.7.0-e6bdf3c5/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.7.0-e6bdf3c5/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.7.0-e6bdf3c5/lib:$OCAMLPATH"
-export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.7.0-e6bdf3c5/man:$MAN_PATH"
-export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.7.0-e6bdf3c5/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.9.0-65d82794/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.9.0-65d82794/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.9.0-65d82794/lib:$OCAMLPATH"
+export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.9.0-65d82794/man:$MAN_PATH"
+export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.9.0-65d82794/bin:$PATH"
+
+#
+# @opam/menhir@opam:20220210@ff87a93b
+#
+export CAML_LD_LIBRARY_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhir-opam__c__20220210-d8e6aff8/stublibs:/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhir-opam__c__20220210-d8e6aff8/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhir-opam__c__20220210-d8e6aff8/lib:$OCAMLPATH"
+export MAN_PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhir-opam__c__20220210-d8e6aff8/man:$MAN_PATH"
+export PATH="/home/alnmathw/.esy/3________________________________________________________________/i/opam__s__menhir-opam__c__20220210-d8e6aff8/bin:$PATH"
 
 #
 # @opam/dune@opam:3.3.0@bbb94e65
@@ -431,8 +464,8 @@ export PATH="/home/alnmathw/.esy/3______________________________________________
 # Built-in
 #
 export OCAMLFIND_LDCONF="ignore"
-export OCAMLFIND_DESTDIR="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/simple_typed_lambda_calculus_in_ocaml-15b84ba2/lib"
-export DUNE_BUILD_DIR="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/b/simple_typed_lambda_calculus_in_ocaml-15b84ba2"
+export OCAMLFIND_DESTDIR="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/i/parser_for_kids_in_ocaml_with_menhir-6cd1f619/lib"
+export DUNE_BUILD_DIR="/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml/_esy/default/store/b/parser_for_kids_in_ocaml_with_menhir-6cd1f619"
 export DUNE_STORE_ORIG_SOURCE_DIR="true"
 export SHELL="env -i /bin/bash --norc --noprofile"
 export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"

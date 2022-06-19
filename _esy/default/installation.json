@@ -1,5 +1,5 @@
 {
-  "simple-typed-lambda-calculus-in-ocaml@link-dev:./package.json":
+  "parser-for-kids-in-ocaml-with-menhir@link-dev:./package.json":
     "/home/alnmathw/Documents/Projects/functional-programming/lambda-calculus-interpreter-in-ocaml/Lambda-Calculus-Interpreter-in-OCaml",
   "ocaml@4.12.1001@d41d8cd9":
     "/home/alnmathw/.esy/source/i/ocaml__4.12.1001__13c48f2c",
@@ -11,16 +11,22 @@
     "/home/alnmathw/.esy/source/i/opam__s__uuseg__opam__c__14.0.0__ae751ed3",
   "@opam/uucp@opam:14.0.0@8715110e":
     "/home/alnmathw/.esy/source/i/opam__s__uucp__opam__c__14.0.0__e45d1234",
+  "@opam/uchar@opam:0.0.2@aedf91f9":
+    "/home/alnmathw/.esy/source/i/opam__s__uchar__opam__c__0.0.2__0292ad2f",
   "@opam/topkg@opam:1.0.5@0aa59f51":
     "/home/alnmathw/.esy/source/i/opam__s__topkg__opam__c__1.0.5__82377b68",
   "@opam/stdlib-shims@opam:0.3.0@72c7bc98":
     "/home/alnmathw/.esy/source/i/opam__s__stdlib_shims__opam__c__0.3.0__513c478f",
   "@opam/stdio@opam:v0.15.0@aeefdf96":
     "/home/alnmathw/.esy/source/i/opam__s__stdio__opam__c__v0.15.0__e67d3f73",
+  "@opam/spawn@opam:v0.15.1@85e9d6f1":
+    "/home/alnmathw/.esy/source/i/opam__s__spawn__opam__c__v0.15.1__cdb37477",
   "@opam/sexplib0@opam:v0.15.1@51111c0c":
     "/home/alnmathw/.esy/source/i/opam__s__sexplib0__opam__c__v0.15.1__7e598e8d",
   "@opam/seq@opam:base@d8d7de1d":
     "/home/alnmathw/.esy/source/i/opam__s__seq__opam__c__base__a0c677b1",
+  "@opam/sedlex@opam:3.0@6e37d05e":
+    "/home/alnmathw/.esy/source/i/opam__s__sedlex__opam__c__3.0__c97a9e57",
   "@opam/result@opam:1.5@1c6a6533":
     "/home/alnmathw/.esy/source/i/opam__s__result__opam__c__1.5__74485f30",
   "@opam/re@opam:1.10.4@c4910ba6":
@@ -39,6 +45,8 @@
     "/home/alnmathw/.esy/source/i/opam__s__odoc_parser__opam__c__1.0.0__916d7350",
   "@opam/ocp-indent@opam:1.8.1@e32a3c50":
     "/home/alnmathw/.esy/source/i/opam__s__ocp_indent__opam__c__1.8.1__2297d668",
+  "@opam/ocamlformat-rpc-lib@opam:0.19.0@125cf11d":
+    "/home/alnmathw/.esy/source/i/opam__s__ocamlformat_rpc_lib__opam__c__0.19.0__a218b2b0",
   "@opam/ocamlformat@opam:0.22.4@4b6ffc79":
     "/home/alnmathw/.esy/source/i/opam__s__ocamlformat__opam__c__0.22.4__c2fc1dd2",
   "@opam/ocamlfind@opam:1.9.5@c4562efc":
@@ -47,8 +55,8 @@
     "/home/alnmathw/.esy/source/i/opam__s__ocamlbuild__opam__c__0.14.1__3fd19d31",
   "@opam/ocaml-version@opam:3.4.0@b6cd49e1":
     "/home/alnmathw/.esy/source/i/opam__s__ocaml_version__opam__c__3.4.0__416ba242",
-  "@opam/ocaml-lsp-server@opam:1.7.0@2cdbe0ed":
-    "/home/alnmathw/.esy/source/i/opam__s__ocaml_lsp_server__opam__c__1.7.0__8dd35f22",
+  "@opam/ocaml-lsp-server@opam:1.9.0@671f2077":
+    "/home/alnmathw/.esy/source/i/opam__s__ocaml_lsp_server__opam__c__1.9.0__342ea46d",
   "@opam/ocaml-compiler-libs@opam:v0.12.4@41979882":
     "/home/alnmathw/.esy/source/i/opam__s__ocaml_compiler_libs__opam__c__v0.12.4__35cddb8b",
   "@opam/menhirSdk@opam:20220210@b8921e41":
@@ -57,6 +65,8 @@
     "/home/alnmathw/.esy/source/i/opam__s__menhirlib__opam__c__20220210__564172b3",
   "@opam/menhir@opam:20220210@ff87a93b":
     "/home/alnmathw/.esy/source/i/opam__s__menhir__opam__c__20220210__52de2da3",
+  "@opam/gen@opam:1.0@eb721ea1":
+    "/home/alnmathw/.esy/source/i/opam__s__gen__opam__c__1.0__86f471b9",
   "@opam/fpath@opam:0.7.3@674d8125":
     "/home/alnmathw/.esy/source/i/opam__s__fpath__opam__c__0.7.3__18652e33",
   "@opam/fix@opam:20220121@17b9a1a4":
@@ -69,8 +79,6 @@
     "/home/alnmathw/.esy/source/i/opam__s__dune_build_info__opam__c__3.3.0__2b68f088",
   "@opam/dune@opam:3.3.0@bbb94e65":
     "/home/alnmathw/.esy/source/i/opam__s__dune__opam__c__3.3.0__243904f5",
-  "@opam/dot-merlin-reader@opam:4.2@1605899e":
-    "/home/alnmathw/.esy/source/i/opam__s__dot_merlin_reader__opam__c__4.2__8e0cd6bf",
   "@opam/csexp@opam:1.5.1@8a8fb3a7":
     "/home/alnmathw/.esy/source/i/opam__s__csexp__opam__c__1.5.1__a5d42d7e",
   "@opam/cppo@opam:1.6.9@db929a12":
