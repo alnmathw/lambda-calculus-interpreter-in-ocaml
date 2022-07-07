@@ -1,5 +1,4 @@
 {
-  "name": "parser-for-kids-in-ocaml-with-menhir",
   "dependencies": {
     "ocaml": "4.12.x",
     "@opam/dune": "*",
