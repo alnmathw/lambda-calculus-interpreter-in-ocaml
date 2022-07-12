@@ -3,3 +3,6 @@ In this project I write an interpreter for Lambda Calculus using OCaml. I use du
 
 ## Inspiration 
 After reading An Introduction to Functional Programming Through Lambda Calculusa, a book by Greg Michaelson, I wanted to practice a bit of the knowledge that I learned. 
+
+
+## Add More Documentation Later
